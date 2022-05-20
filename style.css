@@ -1,0 +1,61 @@
+.header-img {
+   max-height: 30px; 
+}
+.boton {
+    border: 1px solid #ffffff;
+    padding: 5px;
+    background-color: #000000;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 50px;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;;
+}
+.form-control{
+    width: 45px;
+    padding: 2rem;
+    size: 32;
+    border-radius: 50px;
+}
+
+.input-group-text img{
+    height: 20px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.body-img{
+    width: 100%;
+    border-radius: 15px;
+}
+
+.row {
+    display: flex;
+    padding: 5px;
+    flex-wrap: wrap;
+}
+.column {
+    flex: 25%;
+    padding: 5px;
+}
+
+.column img {
+    margin-top: 5px;
+}
+
+@media (max-width: 800px){
+    .column{
+        flex: 50%;
+}
+}
+@media (max-width: 600px){
+    .column{
+        flex: 100%;
+}
+}
